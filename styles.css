@@ -1,0 +1,58 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* DESKTOP SCREEN  */
+@media(min-width:750px){
+    .main{
+        display: flex;
+    }
+
+    /* FIRST SECTION  */
+    .left-wing{
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+
+
+    /* SECONDARY/MAIN SECTION  */
+    .main-nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-nav{
+        display: flex;
+    }
+
+    .right-nav > div{
+        display: flex;
+    }
+
+    .secondary-nav > ul{
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        width: 990px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.199);
+    }
+
+    /* vid bar  */
+    .vid-bar{
+        background-color: rgba(128, 128, 128, 0.466);
+        max-width: 400px;
+        padding
+    }
+ 
+
+    /* thumbnails */
+    .thumbnail-info{
+        display: flex;
+    }
+}
