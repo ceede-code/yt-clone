@@ -11,6 +11,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 li{
@@ -53,22 +54,37 @@ li{
     .sub-list > li{
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 8px;
         gap: 10px;
+    }
+
+    .sub-list > li:hover{
+        background-color: #F0F0F0;
+        border-radius: 10px;
     }
 
     .me-ul > li{
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 8px;
         gap: 10px;
+    }
+
+    .me-ul > li:hover{
+        background-color: #F0F0F0;
+        border-radius:10px;
     }
 
     .more-ul > li{
         display: flex;
         align-items: center;
         gap: 10px;
-        padding: 5px;
+        padding: 8px;
+    }
+
+    .more-ul > li:hover{
+        background-color: #F0F0F0;
+        border-radius: 10px;
     }
 
     .report-tab{
@@ -95,6 +111,45 @@ li{
 
 
     /* SECONDARY/MAIN SECTION  */
+    .input-block{
+        border: 1px solid grey;
+        padding-right: 40px;
+        border-radius: 25px;
+        border-left: none;
+        background-color: #F0F0F0;
+    }
+
+    .input-block > input{
+        width: 400px;
+        height: 30px;
+        border-radius: 25px 0 0 25px;
+        /* border-bottom: none;
+        border-top: none; */
+        border: grey;
+    }
+
+    .right-nav{
+        display: flex;
+        gap: 20px;
+    }
+
+    .right-nav > div{
+        background-color: #F0F0F0;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 85px;
+        border-radius: 20px;
+    }
+
+    .right-nav > img{
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+    }
+
     .right-wing{
         overflow-y: scroll;
         height: 100vh;
@@ -102,7 +157,9 @@ li{
 
     .main-nav{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
     }
 
     .right-nav{
@@ -128,7 +185,7 @@ li{
     }
 
     .secondary-nav > ul > li{
-        background-color: rgba(0, 0, 0, 0.082);
+        background-color: #F0F0F0;
         padding:5px;
         border-radius: 8px;
 
@@ -143,7 +200,6 @@ li{
 
     /* vid bar  */
     .vid-bar{
-        background-color: rgba(128, 128, 128, 0.466);
         width: 340px;
         display: flex;
         flex-direction: column;
@@ -151,6 +207,10 @@ li{
         border-radius: 15px;
         padding: 10px;
         
+    }
+
+    .vid-bar:hover{
+        background-color: #F0F0F0;
     }
 
     /*video thumbnail image*/
